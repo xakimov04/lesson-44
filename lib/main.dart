@@ -1,7 +1,7 @@
-import 'package:dars4/views/screens/home_screen.dart';
+import 'package:dars4/views/pages/company_home_page.dart';
 import 'package:flutter/material.dart';
 
-void main(List<String> args) {
+void main() {
   runApp(const MyApp());
 }
 
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData.dark(),
       debugShowCheckedModeBanner: false,
-      home: const HomeScreen(),
+      home: const HomepageScreen(),
     );
   }
 }
